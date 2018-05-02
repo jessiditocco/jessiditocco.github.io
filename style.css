@@ -1,3 +1,54 @@
 #main-header {
     text-align: center;
+    color: #f1e3dd;
+}
+
+
+.secondary-header {
+    text-align: center;
+    color: #f1e3dd;
+}
+
+
+.hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
+.page-body {
+    color: #bccad6;
+    text-align: center;
+}
+
+body {
+    background-color: #667292;
+}
+
+.link-glyph {
+    color: #f1e3dd;
+    padding: 10px;
+}
+
+#links {
+    text-align: center
+}
+
+#picture {
+    max-width: 50%;
+    object-fit: scale-down;
+}
+
+#jam-logo {
+    height: 20%;
+    width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+
 }
