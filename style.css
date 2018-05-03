@@ -1,8 +1,8 @@
-#main-header {
+.main-header {
     text-align: center;
     color: #f1e3dd;
     font-family: 'Exo', sans-serif;
-    font-size: 60px;
+    font-size: 80px;
 }
 
 
@@ -55,14 +55,27 @@ body {
 }
 
 #jam-logo {
-    height: 20%;
-    width: 20%;
+    height: 27%;
+    width: 17%;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding: 30px;
 }
 
-#video {
+
+footer {
+    text-align: center;
+    display: block;
+
+}
+
+#jam-description {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+#jam-video {
     width: 600;
     height: 400;
     display: block;
@@ -71,13 +84,22 @@ body {
 
 }
 
-footer {
-    text-align: center;
-    display: block;
+#footer {
+    color: #f1e3dd;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    background-color: #f1e3dd;
+    font-family: 'Exo', sans-serif;
+    font-weight: bold;
+    font-size: 17px;
 
 }
 
-.project-description {
-    padding-left: 60px;
-    padding-right: 60px;
+#projects {
+    padding-top: 10px;
 }

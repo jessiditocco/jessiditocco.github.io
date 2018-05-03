@@ -1,5 +1,6 @@
 <html>
 <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
@@ -7,7 +8,30 @@
     <title>Jessi DiTocco</title>
 </head>
 <body>
-    <h1 id="main-header">Jessi DiTocco</h1>
+    <!-- Navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Jessi DiTocco</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#projects">Portfolio <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="ditocco_resume.pdf">Resume</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#footer">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+
+    <h1 class="main-header">Jessi DiTocco</h1>
     <h2 class="secondary-header">jessi.ditocco@gmail.com</h2>
    
     <div id="links">
@@ -28,45 +52,71 @@
         </a>
     </div>
 
-
     <hr class="line-break">
-
     <img id="picture" src="jessi.jpg">
 
-    <p class="page-body"> Biologist turned software developer based out of San Francisco, CA. Check out my <a href="resume.pdf">Resume</a>
+    <p class="page-body"> Biologist turned software developer based out of San Francisco, CA. I am originally from Fort Lauderdale, Florida. Check out my <br><a href="ditocco_resume.pdf">resume</a> and a recent <a href="#jam-logo">project</a> that I built.
     </p>
-    
+
     <hr class="line-break">
 
-    <h2 class="secondary-header">Projects</h2>
-    <img id="jam-logo" src="jam_logo_white.png">
-    
-    <p class="page-body project-description">
-        Jam is a music-focused social network application that connects people through events using Eventbrite's API. The Jam application allows users to search for music events by keyword, comment on events, and manage bookmarked events through their profile. Once logged in, the user can access their profile page to view a list of bookmarked events, as well as a map of bookmarked events, built using the Google Maps API. Users can connect with other Jam users via an email feature on the Jam application that uses SendGrid's emailing API.
-        
-        <br>
-        <br>
-        
-        <b>Tech Stack:</b>
-        Python, Javascript (AJAX, JSON), PostgreSQL, HTML, CSS, Flask, jQuery, Bootstrap, Jinja
-        <b>
+    <h2 class="main-header" id="projects">Projects</h2>
 
-        <br>
-
-        <a href="https://github.com/jessiditocco/jam_app-02-18">Jam Repo on Github
-        </a>
-    </p>
-    
-   <!--  <video controls="controls" id="video" src="screencast.mov"></video>
- -->
-    <br>
     <hr class="line-break">
 
-    <footer class="page-body">
-        <p>
+    <a href="#project-description">
+        <img id="jam-logo" src="jam_logo_white.png">
+    </a>
+
+     <div class="container">
+        <div class="row" id="jam-row">
+            <div class="col-sm">
+                <p class="page-body" id="jam-description">
+                    Jam is a music-focused social network application that connects people through events using Eventbrite's API. The Jam application allows users to search for music events by keyword, comment on events, and manage bookmarked events through their profile. Once logged in, the user can access their profile page to view a list of bookmarked events, as well as a map of bookmarked events, built using the Google Maps API. Users can connect with other Jam users via an email feature on the Jam application that uses SendGrid's emailing API.
+        
+                    <br>
+                    <br>
+                    
+                    <b>Tech Stack:</b>
+                    Python, Javascript (AJAX, JSON), PostgreSQL, HTML, CSS, Flask, jQuery, Bootstrap, Jinja
+                    <br>
+
+                </p>
+            </div>
+            <div class="col-sm">
+                <div id="jam-video">
+                    <iframe src="https://player.vimeo.com/video/267739117" width="640" height="385" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                </div>
+
+                <a href="jam_writeup.pdf" class="page-body">View: Jam Writeup</a>
+
+                <br>
+
+                <a href="https://github.com/jessiditocco/jam_app-02-18" class="page-body">View: Jam Repo on Github
+                </a>
+
+            </div>
+        </div>
+    </div>
+
+    
+
+    <hr class="line-break">
+    <footer>
+        <p id="footer">
+            Contact<br>
+            jessi.ditocco@gmail.com<br>
+            (954) 802-9978<br>
             2018 © Jessi DiTocco Made with HTML, Hosted by Github
         </p>
     </footer>
+
+
+    <!-- Javascript Script Tags For Bootstrap 4.0-->
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 </body>
 </html>
