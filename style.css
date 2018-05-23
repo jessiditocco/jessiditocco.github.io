@@ -1,9 +1,15 @@
-/* Centers Text in Navbar */
+/* Centers Text in Navbar and Background Color */
 .navbar-nav.navbar-center {
     position: absolute;
     left: 50%;
     transform: translatex(-50%);
+    font-family: 'Montserrat', sans-serif;
 }
+
+.bg-light {
+    background-color: #BFC0C0!important;
+}
+
 
 /* Initial Landing Page-- Intro */
 #head-shot {
@@ -23,6 +29,7 @@
 footer {
     text-align: center;
     display: block;
+    font-family: 'Montserrat', sans-serif;
 
 }
 
@@ -36,6 +43,8 @@ footer {
     border-bottom: 3px dotted #e5e5e5;
     box-shadow: inset 0 -1px 0 0 #e5e5e5, inset 0 1px 0 0 #e5e5e5, 0 1px 0 0 #e5e5e5, 0 -1px 0 0 #e5e5e5;
     margin-bottom: 1px;
+    font-family: 'Montserrat', sans-serif;
+
 }
 
 .carousel-caption {
@@ -48,4 +57,62 @@ footer {
 
 a.button-links {
     color: white;
+}
+
+#resume-button-text {
+    color: white;
+}
+
+p,h1,h2,h3,h4,a {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#landing-page-div {
+    background-color: #6B8981;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+/* About Me */
+
+#about-me-div {
+    background-color: #FFFFFF;
+}
+
+#adjectives {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 90px;
+    color: white;
+
+}
+
+#ditocco-logo {
+    height: 50px;
+    width: 50px;
+}
+
+#resume-link-div {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+}
+
+#who-am-i-div {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+
+}
+
+/* Technical Skills */
+
+#technical-skills {
+    background-color: #6B8981;
+
+}
+
+#portfolio {
+    background-color: #6B8981;
 }

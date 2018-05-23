@@ -1,8 +1,9 @@
 <html>
 <head>
     <title>Jessi DiTocco</title>
+    <!-- Google font stylesheet -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <!-- Bootstrap CDN -->
-
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <link rel="stylesheet" href="animate.min.css">
@@ -25,8 +26,6 @@
                   <h1>
                     Jessi DiTocco
                   </h1>
-                    <br>
-                    <br>
                     <br>
                   <h3>
                     designing solutions with code
@@ -66,14 +65,16 @@
     <!-- Navbar -->
 
     <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light">
-          <a class="navbar-brand" href="#">Jessi DiTocco</a>
+          <a class="navbar-brand" href="#">
+            <img id="ditocco-logo" src="ditocco_logo.png">
+          </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav navbar-center">
               <li class="nav-item active">
-                <a class="nav-link" href="#">About<span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="#about-me-div">About<span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Portfolio</a>
@@ -96,30 +97,64 @@
     <div class="container-fluid">
         <!-- Landing Page with Headshot -->
         <div class="row" id="landing-page-div">
-            <div id="head-shot-div">
+            <div id="head-shot-div" class="col-12">
                 <img id="head-shot" src="jessi.jpg">
             </div>
-            <div id="adjectives">
+            <div class="col-12" id="adjectives">
                 web-developer. biologist. outdoor enthusiast.
             </div>
-            <div>
-                <a href="ditocco_resume.pdf">Resume</a>
+            <div class="col-12" id="resume-link-div">
+                <button type="button" style="border-color:white" class="btn btn-outline-primary">
+                    <a id="resume-button-text" href="ditocco_resume.pdf">Resume</a>
+                  </button>
             </div>
         </div> <!-- Closing div for landing page div-->
 
         <div class="row" id="about-me-div">
-            <h1>Who am I?</h1>
-            <p> I graduated from the University of Florida with a degree in Biology and a minor in Business Administration. During my time in school, I conducted research on wine grapes bred for resistance to Pierce's disease and enjoyed working with data and conducting data analysis. I also interned at E & J Gallo's research winery where I got hands on experience with winemaking fundamentals along with experimental design. This intro to working with scientific data led me to investigate web-development. In 2018, I took the leap to transition into web development, diving into Python, HTML, CSS, and SQLAlchemy. Reach out to me to let me know what we can build together.</p>
+          <div class="col-12" id="who-am-i-div">
+            <h1 >
+              Who am I?
+            </h1>
+            <p> 
+              I graduated from the University of Florida with a degree in Biology and a minor in Business Administration. During my time in school, I conducted research on wine grapes bred for resistance to Pierce's disease and enjoyed working with data and conducting data analysis. I also interned at E & J Gallo's research winery where I got hands on experience with winemaking fundamentals along with experimental design. This intro to working with scientific data led me to investigate web-development. In 2018, I took the leap to transition into web development, diving into Python, HTML, CSS, and SQLAlchemy. Reach out to me to let me know what we can build together.
+            </p>
+          </div>
 
         </div> <!-- Closing div for about me div-->
 
         <div class="row" id="technichal-skills-div">
-
+          <div class="col-12" id="technical-skills">
+            <h1>Technical Skills</h1>
+          <p> 
+              I graduated from the University of Florida with a degree in Biology and a minor in Business Administration. During my time in school, I conducted research on wine grapes bred for resistance to Pierce's disease and enjoyed working with data and conducting data analysis. I also interned at E & J Gallo's research winery where I got hands on experience with winemaking fundamentals along with experimental design. This intro to working with scientific data led me to investigate web-development. In 2018, I took the leap to transition into web development, diving into Python, HTML, CSS, and SQLAlchemy. Reach out to me to let me know what we can build together.
+            </p>
+          </div>
         </div> <!-- Closing div for technical skills div-->
+
+        <div class="row" id="work-experience-div">
+          <div class="col-12" id="work-experience">
+          <h1>Work Experience</h1>
+          <p> 
+              I graduated from the University of Florida with a degree in Biology and a minor in Business Administration. During my time in school, I conducted research on wine grapes bred for resistance to Pierce's disease and enjoyed working with data and conducting data analysis. I also interned at E & J Gallo's research winery where I got hands on experience with winemaking fundamentals along with experimental design. This intro to working with scientific data led me to investigate web-development. In 2018, I took the leap to transition into web development, diving into Python, HTML, CSS, and SQLAlchemy. Reach out to me to let me know what we can build together.
+            </p>
+          </div>
+        </div> <!-- Closing div for work experience div-->
+
+        <div class="row" id="portfolio-div">
+          <div class="col-12" id="portfolio">
+          <h1>Portfolio</h1>
+          <p> 
+              I graduated from the University of Florida with a degree in Biology and a minor in Business Administration. During my time in school, I conducted research on wine grapes bred for resistance to Pierce's disease and enjoyed working with data and conducting data analysis. I also interned at E & J Gallo's research winery where I got hands on experience with winemaking fundamentals along with experimental design. This intro to working with scientific data led me to investigate web-development. In 2018, I took the leap to transition into web development, diving into Python, HTML, CSS, and SQLAlchemy. Reach out to me to let me know what we can build together.
+            </p>
+          </div>
+        </div> <!-- Closing div for portfolio div-->
 
         <hr class="line-break">
          <footer>
             <p id="footer">
+                <img id="ditocco-logo" src="ditocco_logo.png">
+                <br>
+                <br>
                 Contact<br>
                 jessi.ditocco@gmail.com<br>
                 (954) 802-9978<br>
