@@ -1,50 +1,12 @@
-.main-header {
-    text-align: center;
-    color: #f1e3dd;
-    font-family: 'Exo', sans-serif;
-    font-size: 100px;
+/* Centers Text in Navbar */
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
 }
 
-
-.secondary-header {
-    text-align: center;
-    font-family: 'Exo', sans-serif;
-    color: #f1e3dd;
-}
-
-
-.hr {
-    display: block;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    margin-left: auto;
-    margin-right: auto;
-    border-style: inset;
-    border-width: 1px;
-}
-
-.page-body {
-    color: #f1e3dd;
-    text-align: center;
-    font-size: 20px;
-    font-family: 'Montserrat', sans-serif;
-}
-
-body {
-    background-color: #07906F;
-}
-
-.link-glyph {
-    color: #f1e3dd;
-    padding: 10px;
-    font-size: 40px;
-}
-
-#links {
-    text-align: center
-}
-
-#picture {
+/* Initial Landing Page-- Intro */
+#head-shot {
     height: 450px auto;
     width: 400px;
     display: block;
@@ -54,65 +16,6 @@ body {
     max-width: 100%;
 }
 
-#jam-logo {
-    height: 27%;
-    width: 17%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 30px;
+#head-shot-div {
+    width: 100%
 }
-
-
-footer {
-    text-align: center;
-    display: block;
-
-}
-
-#jam-description {
-    padding-left: 60px;
-    padding-right: 60px;
-}
-
-#jam-video {
-    width: 600;
-    height: 400;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-
-}
-
-#footer {
-    color: #f1e3dd;
-    font-size: 20px;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.navbar {
-    opacity: 0.5;
-    filter: alpha(opacity=50);
-    background-color: #f1e3dd;
-    font-family: 'Exo', sans-serif;
-    font-weight: bold;
-    font-size: 17px;
-
-}
-
-#projects {
-    padding-top: 10px;
-}
-
-a:hover {
-    text-decoration: none;
-}
-
-.my-button {
-    background-color: white;
-    display: block;
-    width: 40%;
-    margin-left: 30%;
-    margin-right: 30%
-}
-
