@@ -1,3 +1,14 @@
+/* Random Edits */
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 2px;
+}
+
 /* Centers Text in Navbar and Background Color */
 .navbar-nav.navbar-center {
     position: absolute;
@@ -30,7 +41,6 @@ footer {
     text-align: center;
     display: block;
     font-family: 'Montserrat', sans-serif;
-
 }
 
 #carousel-caption-text {
@@ -67,16 +77,29 @@ p,h1,h2,h3,h4,a {
     font-family: 'Montserrat', sans-serif;
 }
 
+h1 {
+    font-weight: bold;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    text-align: center;
+}
+
 #landing-page-div {
     background-color: #6B8981;
-    padding-bottom: 20px;
-    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-top: 30px;
 }
 
 .glyphicon {
     color: white;
-    height: 20px;
-    width: 20px;
+    height: 35px;
+    width: 35px;
+    font-size: 32px;
+}
+
+#contact-buttons {
+    text-align: center;
+    padding-top: 10px;
 }
 
 /* About Me */
@@ -91,7 +114,7 @@ p,h1,h2,h3,h4,a {
     vertical-align: middle;
     line-height: 90px;
     color: white;
-
+    font-size: 22px;
 }
 
 #ditocco-logo {
@@ -108,7 +131,10 @@ p,h1,h2,h3,h4,a {
 #who-am-i-div {
     text-align: center;
     vertical-align: middle;
-    line-height: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 400px;
+    padding-right: 400px;
 
 }
 
@@ -123,4 +149,10 @@ p,h1,h2,h3,h4,a {
     background-color: #6B8981;
 }
 
+/* Footer */
 
+#footer-div {
+    background-color: #BFC0C0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
