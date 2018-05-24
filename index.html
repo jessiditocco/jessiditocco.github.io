@@ -79,16 +79,17 @@
                 <a class="nav-link" href="#about-me-div">About<span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Portfolio</a>
+                <a class="nav-link" href="#portfolio-div-heading">Portfolio
+                </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Skills</a>
+                <a class="nav-link" href="#technichal-skills-div">Skills</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link disabled" href="#">Work Experience</a>
+                <a class="nav-link disabled" href="#work-experience-div">Work Experience</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link disabled" href="#">Contact</a>
+                <a class="nav-link disabled" href="#footer-div">Contact</a>
               </li>
             </ul>
           </div>
@@ -132,7 +133,7 @@
 
         <div class="row" id="about-me-div">
           <div class="col-12" id="who-am-i-div">
-            <h1 >
+            <h1>
               Who am I?
               <hr>
             </h1>
@@ -146,10 +147,16 @@
         <div class="row" id="technichal-skills-div">
           <div class="col-12" id="technical-skills">
             <h1>Technical Skills</h1>
-          <p> 
-            FILLER TEXT--STAY TUNED
-              I graduated from the University of Florida with a degree in Biology and a minor in Business Administration. During my time in school, I conducted research on wine grapes bred for resistance to Pierce's disease and enjoyed working with data and conducting data analysis. I also interned at E & J Gallo's research winery where I got hands on experience with winemaking fundamentals along with experimental design. This intro to working with scientific data led me to investigate web-development. In 2018, I took the leap to transition into web development, diving into Python, HTML, CSS, and SQLAlchemy. Reach out to me to let me know what we can build together.
-            </p>
+              <img class="technical-skill-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/110px-Python-logo-notext.svg.png">
+              <img class="technical-skill-logo" src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png">
+              <img class="technical-skill-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1024px-HTML5_logo_and_wordmark.svg.png">
+              <img class="technical-skill-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/2000px-CSS3_logo_and_wordmark.svg.png">
+              <img class="technical-skill-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/2000px-Postgresql_elephant.svg.png">
+
+              
+
+
+              
           </div>
         </div> <!-- Closing div for technical skills div-->
 
@@ -163,15 +170,36 @@
           </div>
         </div> <!-- Closing div for work experience div-->
 
-        <div class="row" id="portfolio-div">
-          <div class="col-12" id="portfolio">
-          <h1>Portfolio</h1>
-          <p> 
-            FILLER TEXT--STAY TUNED
-              I graduated from the University of Florida with a degree in Biology and a minor in Business Administration. During my time in school, I conducted research on wine grapes bred for resistance to Pierce's disease and enjoyed working with data and conducting data analysis. I also interned at E & J Gallo's research winery where I got hands on experience with winemaking fundamentals along with experimental design. This intro to working with scientific data led me to investigate web-development. In 2018, I took the leap to transition into web development, diving into Python, HTML, CSS, and SQLAlchemy. Reach out to me to let me know what we can build together.
-            </p>
+        <div class="row" id="portfolio-div-heading">
+          <div class="col-12">
+            <h1>Portfolio</h1>
+            <hr id="portfolio-hr">
           </div>
-        </div> <!-- Closing div for portfolio div-->
+        </div>
+
+        <div class="row" id="portfolio-div-heading">
+          <div class="col-12" id="jam-logo-div">
+            <img id="jam-logo" src="jam_logo_white.png">
+          </div>
+        </div>
+
+        <div class="row" id="jam-body">
+          <div class="col-5" id="jam-description">
+            <p>
+              Jam is a music-focused social network application that connects people through events using Eventbrite's API. The Jam application allows users to search for music events by keyword, comment on events, and manage bookmarked events through their profile. Once logged in, the user can access their profile page to view a list of bookmarked events, as well as a map of bookmarked events, built using the Google Maps API. Users can connect with other Jam users via an email feature on the Jam application that uses SendGrid's emailing API.
+            </p>
+            <a href="jam_writeup.pdf" style="color:white" class="page-body">
+              View: Jam Writeup
+            </a>
+            <br>
+            <a href="https://github.com/jessiditocco/jam_app-02-18" style="color:white"class="page-body">
+              View: Jam Repo on Github
+            </a>
+          </div>
+          <div class="col-7" id="jam-video">
+            <iframe src="https://player.vimeo.com/video/267739117" width="640" height="385" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+          </div>
+        </div> <!-- Closing Div for Jam Body (portfolio) div -->
 
         <hr class="line-break">
         <div class="row" id="footer-div">
@@ -188,7 +216,7 @@
                 (954) 802-9978<br>
                 2018 © Jessi DiTocco Made with HTML, Hosted by Github
               </p>
-            </footer>
+          </footer>
           </div>
         </div> <!-- Closing div for footer div -->
     </div> <!-- Closing div for container-fluid -->
