@@ -144,6 +144,7 @@ h1 {
 
 #technical-skills {
     background-color: #6B8981;
+    color: white;
 
 }
 
@@ -182,8 +183,9 @@ h1 {
 }
 
 #jam-body {
-    text-align: center;
+    text-align: left;
     color: white;
+    padding-left: 30px;
 }
 
 #jam-logo {
