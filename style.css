@@ -37,11 +37,6 @@ hr {
     width: 100%
 }
 
-footer {
-    text-align: center;
-    display: block;
-    font-family: 'Montserrat', sans-serif;
-}
 
 #carousel-caption-text {
     display: block;
@@ -145,6 +140,8 @@ h1 {
 #technical-skills {
     background-color: #6B8981;
     color: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
 
 }
 
@@ -616,8 +613,8 @@ div.timeline::after {
 }
 
 .timeline-logo {
-    height: 70px;
-    width: 70px;
+    height: 130px;
+    width: 130px;
 }
 
 /* Work Experience */
@@ -626,4 +623,16 @@ div.timeline::after {
     margin: auto;
     width: 50%;
     padding: 10px;
+}
+
+/* Footer */
+
+footer {
+    text-align: center;
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#footer-glyphicons {
+    color: black;
 }
