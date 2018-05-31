@@ -9,6 +9,12 @@ hr {
     border-width: 2px;
 }
 
+.btn {
+  height: 50px;
+  width: 115px;
+  font-size: 15px;
+}
+
 /* Centers Text in Navbar and Background Color */
 .navbar-nav.navbar-center {
     position: absolute;
@@ -198,6 +204,13 @@ h1 {
 
 #jam-video {
     padding-bottom: 30px;
+}
+
+.jam-button {
+    height: 40px;
+    width: 190px;
+    font-size: 13px;
+
 }
 
 #portfolio-hr {
