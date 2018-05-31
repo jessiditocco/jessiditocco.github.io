@@ -43,6 +43,12 @@ hr {
     width: 100%
 }
 
+#ditocco-logo-white {
+    height: 170px;
+    width: 150px;
+    padding-bottom: 30px;
+}
+
 
 #carousel-caption-text {
     display: block;
@@ -59,7 +65,12 @@ hr {
 }
 
 .carousel-caption {
-    padding-bottom: 400px;
+    padding-bottom: 300px;
+}
+
+#tag-line {
+    font-size: 25px;
+    padding-bottom: 30px;
 }
 
 .btn-outline-primary {
