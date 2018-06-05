@@ -633,12 +633,20 @@ div.timeline::after {
 .timeline-heading {
     font-weight: bold; 
     color: black;
+    text-align: center;
 
 }
 
 .timeline-logo {
     height: 130px;
     width: 130px;
+    display:block;
+    margin:auto;display:block;
+    margin:auto;
+}
+
+.timeline-work-paragraph {
+    text-align: center;
 }
 
 /* Work Experience */

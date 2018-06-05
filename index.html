@@ -8,9 +8,9 @@
     <!-- FontAwesome CDN-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <!-- Animatee CSS-->
-    <link rel="stylesheet" href="animate.min.css">
+    <link rel="stylesheet" href="static/css/animate.min.css">
     <!-- My Stylesheet -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="static/css/style.css">
     <!-- Link to Jquery -->
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 </head>
@@ -31,7 +31,7 @@
                   </h1>
                     <br>
 
-                  <img id="ditocco-logo-white" src="ditocco_logo_white.png">
+                  <img id="ditocco-logo-white" src="static/images/ditocco_logo_white.png">
                   <h3 id="tag-line">
                     designing solutions with code
                   </h3>
@@ -48,13 +48,13 @@
                 </div>
               </div>
             <div class="carousel-item active">
-              <img class="d-block w-100" src="narrows.png" alt="First slide">
+              <img class="d-block w-100" src="static/images/narrows.png" alt="First slide">
             </div>
             <div class="carousel-item">
-              <img class="d-block w-100" src="matterhorn.jpeg" alt="Second slide">
+              <img class="d-block w-100" src="static/images/matterhorn.jpeg" alt="Second slide">
             </div>
             <div class="carousel-item">
-              <img class="d-block w-100" src="code.png" alt="Third slide">
+              <img class="d-block w-100" src="static/images/code.png" alt="Third slide">
             </div>
           </div>
           <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -71,7 +71,7 @@
 
     <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light">
           <a class="navbar-brand" href="#">
-            <img id="ditocco-logo" src="ditocco_logo.png">
+            <img id="ditocco-logo" src="static/images/ditocco_logo.png">
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -104,7 +104,7 @@
         <!-- Landing Page with Headshot -->
         <div class="row" id="landing-page-div">
             <div id="head-shot-div" class="col-12">
-                <img id="head-shot" src="jessi.jpg">
+                <img id="head-shot" src="static/images/jessi.jpg">
             </div>
             <div class="col-12" id="contact-buttons">
               <a href="https://github.com/jessiditocco">
@@ -129,7 +129,7 @@
             </div>
             <div class="col-12" id="resume-link-div">
                 <button type="button" style="border-color:white" class="btn btn-outline-primary">
-                    <a id="resume-button-text" href="ditocco_resume.pdf">Resume</a>
+                    <a id="resume-button-text" href="static/pdf/ditocco_resume.pdf">Resume</a>
                   </button>
             </div>
         </div> <!-- Closing div for landing page div-->
@@ -179,6 +179,25 @@
                 <div class="page__demo">
                   <div class="main-container page__container">
                     <div class="timeline">
+                       <div class="timeline__group">
+                        <span class="timeline__year">2018</span>
+                        <div class="timeline__box">
+                          <div class="timeline__date">
+                            <span class="timeline__day"></span>
+                            <span class="timeline__month">May- <br> Curr</span>
+                          </div>
+                          <div class="timeline__post">
+                            <div class="timeline__content">
+                              <img class="timeline-logo" style="width:160px" src="static/images/price.png">
+                              <br>
+                              <br>
+                              <h2 class="timeline-heading">Price.com: Business Development Independent Contractor</h2>
+                              <br>
+                              <p class="timeline-work-paragraph">Working for a small startup, price.com, an AI powered search engine dedicated to maximizing savings for customers • Reaching out to retailers to acquire data feeds from new retailers • Communicating with the data engineering team to ensure that data feeds are added to price.com’s database • Checking price.com’s database to ensure that all columns in the database were updated correctly with product data</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                       <div class="timeline__group">
                         <span class="timeline__year">2017</span>
                         <div class="timeline__box">
@@ -189,8 +208,9 @@
                           <div class="timeline__post">
                             <div class="timeline__content">
                               <img class="timeline-logo" src="https://www.roarwines.com/images/logo_roar_home.png">
+                              <br>
                               <h2 class="timeline-heading">ROAR Winery: Winemaking Intern</h2>
-                              <p>Worked in a medium sized urban winery with varietals including: Pinot Noir, Chardonnay, Syrrah & Grenache • Made wine for five labels ranging from production level sales to smaller, independent labels • Collaborated with three additional contract winemakers learning many different winemaking styles and practices • Collected and reported brix measurements of sugar levels during the fermentation for reporting to the winemakers</p>
+                              <p class="timeline-work-paragraph">Worked in a medium sized urban winery with varietals including: Pinot Noir, Chardonnay, Syrrah & Grenache • Made wine for five labels ranging from production level sales to smaller, independent labels • Collaborated with three additional contract winemakers learning many different winemaking styles and practices • Collected and reported brix measurements of sugar levels during the fermentation for reporting to the winemakers</p>
                             </div>
                           </div>
                         </div>
@@ -205,8 +225,10 @@
                           <div class="timeline__post">
                             <div class="timeline__content">
                               <img class="timeline-logo" src="https://i.forbesimg.com/media/lists/companies/ej-gallo-winery_416x416.jpg">
+                              <br>
                               <h2 class="timeline-heading">E & J Gallo: Research Winery Intern</h2>
-                              <p> Worked in a small scale, 10-gallon research winery monitoring a total of 550 throughout the season • Collaborated with other departments in the company to discuss project specs for various R&D projects • Inoculated ferments with various yeast strains • Conducted a personal harvest project that tested for various off-note compounds in the finished wine • Inoculated ferments with various yeast strains and monitored brix levels throughout the fermentationGrape Research Field Manager & Lab Assistant, Gainesville, FL</p>
+                              <br>
+                              <p class="timeline-work-paragraph"> Worked in a small scale, 10-gallon research winery monitoring a total of 550 throughout the season • Collaborated with other departments in the company to discuss project specs for various R&D projects • Inoculated ferments with various yeast strains • Conducted a personal harvest project that tested for various off-note compounds in the finished wine • Inoculated ferments with various yeast strains and monitored brix levels throughout the fermentationGrape Research Field Manager & Lab Assistant, Gainesville, FL</p>
                             </div>
                           </div>
                         </div>
@@ -218,8 +240,10 @@
                           <div class="timeline__post">
                             <div class="timeline__content">
                               <img class="timeline-logo" style="height:100px; width:100px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/University_of_Florida_Vertical_Signature.svg/2000px-University_of_Florida_Vertical_Signature.svg.png">
+                              <br>
                               <h2 class="timeline-heading">University of Florida Grape Research Field Manager and Lab Assistant</h2>
-                              <p>Designed and planted a small vineyard with Pierce Disease resistant vines from UC Davis • Researched the various types of trellising systems for vineyards and designed the trellis system for the project • Randomized the experimental field layout for the various varietals planted using excel • Prepared tissue samples for a project testing freezing temperatures on bud development in stone fruit</p>
+                              <br>
+                              <p class="timeline-work-paragraph">Designed and planted a small vineyard with Pierce Disease resistant vines from UC Davis • Researched the various types of trellising systems for vineyards and designed the trellis system for the project • Randomized the experimental field layout for the various varietals planted using excel • Prepared tissue samples for a project testing freezing temperatures on bud development in stone fruit</p>
                             </div>
                           </div>
                         </div>
@@ -242,7 +266,7 @@
 
         <div class="row" id="portfolio-div-heading">
           <div class="col-12" id="jam-logo-div">
-            <img id="jam-logo" src="jam_logo_white.png">
+            <img id="jam-logo" src="static/images/jam_logo_white.png">
           </div>
         </div>
 
@@ -252,7 +276,7 @@
               Jam is a music-focused social network application that connects people through events using Eventbrite's API. The Jam application allows users to search for music events by keyword, comment on events, and manage bookmarked events through their profile. Once logged in, the user can access their profile page to view a list of bookmarked events, as well as a map of bookmarked events, built using the Google Maps API. Users can connect with other Jam users via an email feature on the Jam application that uses SendGrid's emailing API.
             </p>
             <button type="button" class="btn btn-outline-primary jam-button">
-              <a href="jam_writeup.pdf" style="color:white" class="page-body">
+              <a href="static/pdf/jam_writeup.pdf" style="color:white" class="page-body">
               View: Jam Writeup
               </a>
             </button>
@@ -272,7 +296,7 @@
           <div class="col-12">
             <footer>
               <p id="footer">
-                <img id="ditocco-logo" src="ditocco_logo.png">
+                <img id="ditocco-logo" src="static/images/ditocco_logo.png">
                 <br>
                 <div id="footer-glyphicons">
                   <a href="https://github.com/jessiditocco">
@@ -308,7 +332,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <!-- Script tag for technical skills Javascript -->
-    <script src="static/technical_skills.js"></script>
+    <script src="static/js/technical_skills.js"></script>
 </body>
 </html>
 
