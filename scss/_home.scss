@@ -1,0 +1,90 @@
+// Main overlay
+#main-overlay {
+  background: url("../images/overlay_plants.jpg") no-repeat 50% 40% / cover;
+  height: 100vh;
+
+  // Navbar
+  .main-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    img {
+      width: 100px;
+    }
+
+    .nav-links {
+      list-style: none;
+      display: flex;
+
+      li {
+        margin: 0.5rem 0.7rem;
+      }
+
+      a {
+        color: $black;
+        font-size: 1.5rem;
+        padding: 1.5rem;
+
+        &.current {
+          border-bottom: 3px dotted $black;
+          padding-bottom: 0.5rem;
+        }
+
+        &:hover {
+          background: $pop-color;
+          color: $black;
+        }
+      }
+    }
+  }
+
+  // Introduction
+  .intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding-top: 200px;
+
+    h1 {
+      color: $black;
+    }
+
+    p {
+      color: $white;
+      font-size: 2rem;
+    }
+  }
+}
+
+// About
+#about {
+  background: $green-color;
+
+  img {
+    width: 200px;
+    border-radius: 10%;
+  }
+
+  .about-container {
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: 3fr 1fr;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .technologies {
+    ul {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+    }
+
+    i {
+      color: $white;
+    }
+  }
+}

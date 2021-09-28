@@ -1,0 +1,132 @@
+.py-1 {
+  padding: 1rem 0; }
+
+.py-2 {
+  padding: 2rem 0; }
+
+.py-3 {
+  padding: 3rem 0; }
+
+.my-1 {
+  margin: 1rem 0; }
+
+.my-2 {
+  margin: 2rem 0; }
+
+.my-3 {
+  margin: 3rem 0; }
+
+.container {
+  max-width: 1280px;
+  padding: 0 1.5rem;
+  margin: auto;
+  overflow: hidden; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Barlow", sans-serif; }
+
+p {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.5rem; }
+
+h1 {
+  font-size: 5rem; }
+
+h2 {
+  font-size: 3.5rem; }
+
+h3 {
+  font-size: 3rem; }
+
+h4 {
+  font-size: 2.5rem; }
+
+h5 {
+  font-size: 2rem; }
+
+h6 {
+  font-size: 1.8rem; }
+
+.btn-primary {
+  display: inline-block;
+  border: 0;
+  cursor: pointer;
+  padding: 0.8rem 2rem;
+  border-radius: 3px;
+  font-size: 1.2rem; }
+
+.btn-primary {
+  background: #6bb36b;
+  color: #000000; }
+
+#main-overlay {
+  background: url("../images/overlay_plants.jpg") no-repeat 50% 40%/cover;
+  height: 100vh; }
+  #main-overlay .main-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+    #main-overlay .main-nav img {
+      width: 100px; }
+    #main-overlay .main-nav .nav-links {
+      list-style: none;
+      display: flex; }
+      #main-overlay .main-nav .nav-links li {
+        margin: 0.5rem 0.7rem; }
+      #main-overlay .main-nav .nav-links a {
+        color: #000000;
+        font-size: 1.5rem;
+        padding: 1.5rem; }
+        #main-overlay .main-nav .nav-links a.current {
+          border-bottom: 3px dotted #000000;
+          padding-bottom: 0.5rem; }
+        #main-overlay .main-nav .nav-links a:hover {
+          background: #99ffff;
+          color: #000000; }
+  #main-overlay .intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding-top: 200px; }
+    #main-overlay .intro h1 {
+      color: #000000; }
+    #main-overlay .intro p {
+      color: #ffff;
+      font-size: 2rem; }
+
+#about {
+  background: #96b36b; }
+  #about img {
+    width: 200px;
+    border-radius: 10%; }
+  #about .about-container {
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: 3fr 1fr;
+    align-items: center;
+    justify-content: center; }
+  #about .technologies ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; }
+  #about .technologies i {
+    color: #ffff; }
+
+body {
+  font-family: "Barlow", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none; }
+
+li {
+  list-style: none; }
